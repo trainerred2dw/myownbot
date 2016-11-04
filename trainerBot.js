@@ -1,7 +1,7 @@
 (function () {
 
     /*window.onerror = function() {
-        var room = JSON.parse(localStorage.getItem("basicBotRoom"));
+        var room = JSON.parse(localStorage.getItem("trainerBotRoom"));
         window.location = 'https://plug.dj' + room.name;
     };*/
 API.on(API.CHAT_COMMAND, (e) => {
