@@ -1,3 +1,9 @@
+(function () {
+
+    /*window.onerror = function() {
+        var room = JSON.parse(localStorage.getItem("basicBotRoom"));
+        window.location = 'https://plug.dj' + room.name;
+    };*/
 API.on(API.CHAT_COMMAND, (e) => {
     if (e === '/ezskip nsfw')
         setTimeout(() => {
